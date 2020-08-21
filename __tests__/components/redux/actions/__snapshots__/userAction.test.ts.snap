@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserAction Test 1`] = `
+Array [
+  Object {
+    "payload": Array [
+      Object {
+        "avatar": "https://i.pravatar.cc/150?img=1",
+        "id": "1",
+        "name": "Morgan James",
+      },
+      Object {
+        "avatar": "https://i.pravatar.cc/150?img=2",
+        "id": "2",
+        "name": "Esme Coleman",
+      },
+    ],
+    "type": "FETCH_USERS",
+  },
+]
+`;

@@ -1,0 +1,186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FaceList Render Test 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "avatar": "https://i.pravatar.cc/150?img=1",
+          "id": "1",
+          "name": "Morgan James",
+        },
+        Object {
+          "avatar": "https://i.pravatar.cc/150?img=2",
+          "id": "2",
+          "name": "Esme Coleman",
+        },
+        Object {
+          "avatar": "https://i.pravatar.cc/150?img=3",
+          "id": "3",
+          "name": "Gary Watson",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "padding": 20,
+              "width": "100vw",
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://i.pravatar.cc/150?img=1",
+              }
+            }
+            style={
+              Object {
+                "borderColor": "#3f51b5",
+                "borderRadius": 50,
+                "borderWidth": 2,
+                "height": 50,
+                "width": 50,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "marginLeft": 10,
+              }
+            }
+          >
+            Morgan James
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "padding": 20,
+              "width": "100vw",
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://i.pravatar.cc/150?img=2",
+              }
+            }
+            style={
+              Object {
+                "borderColor": "#3f51b5",
+                "borderRadius": 50,
+                "borderWidth": 2,
+                "height": 50,
+                "width": 50,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "marginLeft": 10,
+              }
+            }
+          >
+            Esme Coleman
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "padding": 20,
+              "width": "100vw",
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://i.pravatar.cc/150?img=3",
+              }
+            }
+            style={
+              Object {
+                "borderColor": "#3f51b5",
+                "borderRadius": 50,
+                "borderWidth": 2,
+                "height": 50,
+                "width": 50,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "marginLeft": 10,
+              }
+            }
+          >
+            Gary Watson
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

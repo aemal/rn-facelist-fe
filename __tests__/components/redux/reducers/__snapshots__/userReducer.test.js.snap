@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserReducer Test 1`] = `
+Object {
+  "usersList": Array [
+    Object {
+      "avatar": "https://i.pravatar.cc/150?img=1",
+      "id": "1",
+      "name": "Morgan James",
+    },
+    Object {
+      "avatar": "https://i.pravatar.cc/150?img=2",
+      "id": "2",
+      "name": "Esme Coleman",
+    },
+  ],
+}
+`;
